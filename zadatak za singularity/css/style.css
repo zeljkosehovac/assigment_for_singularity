@@ -1,0 +1,300 @@
+
+
+body {
+background-color: black;
+}
+
+
+#navbar {
+position: fixed;
+z-index:1;
+}
+
+#hero-section {
+    background-image: url(../img/Group_475.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 140vh !important;  
+}
+
+#arrow {
+    position: absolute;
+    bottom: 60px;
+    border: solid rgb(255, 255, 255);
+  border-width: 0 2px 2px 0;
+  height: 20px;
+  width:20px;
+  left:0;
+  right:0;
+  margin:auto;
+  display:block;
+  transform: rotate(45deg);
+}
+
+#arrow:hover {
+cursor: pointer;
+}
+
+#tittle-section  {
+padding-bottom: 75px;
+position: relative;
+}
+
+.my-navbar {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.95px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.card {
+background:black !important;
+border: 1px solid black !important;
+border-radius: 0% !important;
+}
+
+.mybutton {
+  width:252px;
+}
+
+.btn, .btn-primary {
+  border-color: #C29824 !important;
+  border: 2px solid !important;
+  border-radius: 0px !important;
+  color:#C29824 !important;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:active,
+.btn-outline-dark:visited,
+.btn-outline-dark:focus {
+  border: 2px solid #C29824!important;
+  background-color:#C29824!important;
+  color:white !important;
+}
+
+ a:hover {
+  color:#C29824!important;
+}
+
+.mylink:hover {
+  cursor: pointer;
+  color:#C29824!important;
+}
+
+
+
+.myline {
+width: 150px;
+  border-bottom: 3px solid #C29824;
+}
+
+.text-divider   {
+   margin: 15px 0; 
+   line-height: 0;
+   text-align: center;
+ }
+ 
+span {
+    background-color:black !important;
+   padding: 5px;
+   color:#C29824!important;
+  }
+
+.text-divider:before { 
+  content: " "; 
+  display: block;
+  border-top: 1px solid rgba(255, 255, 255, 0.200);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.200);
+}
+
+#lastsection {
+ background-image: url(../img/pexels.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh; 
+  }
+
+.fontcol1 {
+  color: #C29824 !important;
+}
+
+.fontcol2{
+color:#FFFFFF !important;
+}
+
+.textsize15 {
+  font-size:15px !important;
+ }
+
+.textsize21 {
+      font-size: 21px !important;
+    }
+
+
+.textsize30{
+  font-size: 30px !important;
+ }
+
+.textsize45 {
+ font-size: 45px !important; 
+ }
+
+
+.textsize60 {
+font-family: 'Kaushan Script', cursive;
+font-size: 60px;
+letter-spacing: 0px;   
+}
+
+
+.font1 {
+  font-family: 'Kaushan Script', cursive;
+}
+    
+.font2{
+   font-family: 'Economica', sans-serif;
+    }
+
+.font3  {
+  font-family: 'Nunito', sans-serif;
+}
+    
+.textsize62{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+  letter-spacing: 0px;
+}
+
+.textsize41{
+font-family: 'Kaushan Script', cursive;
+font-size: 25px;
+letter-spacing: 0px;
+  }
+
+.cardcon {
+overflow: hidden;
+}
+
+.cardcon img {
+transition: transform .5s ease;
+}
+
+.cardcon:hover img {
+transform: scale(1.1);
+}
+
+.cardcon:hover img + .playBtn {
+border-radius: 50%;
+background-color: #C29824;
+}
+
+.video_img {
+position: relative;
+}
+
+.playBtn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 50%;
+  top: 23%;
+  margin-left: -20px; 
+  margin-top: -20px; }
+
+  .cardcon1 {
+  overflow: hidden;
+  }
+  
+  .cardcon1 .video_img1 {
+  transition: transform .5s ease;
+  }
+  
+  .cardcon1:hover .video_img1 {
+  transform: scale(1.1);
+  }
+  
+  .cardcon1:hover img + .playBtn1 {
+  border-radius: 50%;
+  background-color: #C29824;
+  }
+  
+  .video_img1 {
+    position: relative;
+    height: 200px !important;
+    width:auto;
+  }
+  
+  .playBtn1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 55%; 
+    right: 77%;
+    margin-left: -20px; 
+    margin-top: -20px; }
+
+
+.myiconh {  
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/Facebook.svg") ;
+  background-repeat: no-repeat;
+}
+
+
+.myiconh:hover {
+  background-image: url("../img/Facebook3.svg") ;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.myiconh2 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/Instagram.svg") ;
+  background-repeat: no-repeat;
+
+}
+
+
+.myiconh2:hover {
+  background-image: url("../img/instagram3.svg") ;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+}
+.myiconh3 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/Search.svg") ;
+  background-repeat: no-repeat;
+}
+.myiconh3:hover {
+  background-image: url("../img/Search3.svg") ;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.shareicon {
+height: 20px;
+}
+
+.shareicon:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 574px) {
+  .playBtn1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30%; 
+    right: 60%;
+    margin-left: -20px; 
+    margin-top: -20px; }
+}

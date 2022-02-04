@@ -1,0 +1,5 @@
+<svg id="Play_Icon" data-name="Play Icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_702" data-name="Path 702" d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0Zm0,37.614A17.614,17.614,0,1,1,37.614,20,17.614,17.614,0,0,1,20,37.614Z" fill="#fff"/>
+  <circle id="Ellipse_6" data-name="Ellipse 6" cx="17.614" cy="17.614" r="17.614" transform="translate(2.387 2.386)" opacity="0.297"/>
+  <path id="Path_703" data-name="Path 703" d="M65.48,48.692,54.024,42.078a1.764,1.764,0,0,0-2.644,1.528V56.833a1.764,1.764,0,0,0,2.644,1.528L65.48,51.747a1.764,1.764,0,0,0,0-3.056Z" transform="translate(-37.107 -30.219)" fill="#fff"/>
+</svg>
